@@ -1,0 +1,49 @@
+body{
+  background-color:gainsboro;
+}
+
+.search:focus{
+  box-shadow: inset 0 0.5px 0.5px rgba(0, 0, 0, 0.075), 0 0 2px rgba(0, 0, 0, 0.6);
+  border-color: gray;
+}
+
+::-webkit-scrollbar {
+  width: 15px;
+}
+::-webkit-scrollbar{
+  height: 15px;
+}
+::-webkit-scrollbar-thumb {
+  border: 4px solid rgba(0, 0, 0, 0);
+  background-clip: padding-box;
+  border-radius: 9999px;
+  background-color: #999999;
+}
+
+.vc::-webkit-scrollbar {
+  display: none;
+}
+.btn:hover{
+  scale: 0.98;
+}
+
+.st{
+  border-left: 2px solid black;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+  border-right: 0px;
+}
+
+.mi{
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.en{
+  border-right: 2px solid black;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+  border-left: 0px;
+}
